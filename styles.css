@@ -1,0 +1,369 @@
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  color: #777777;
+  margin: 45px 20px 0;
+}
+header {
+  height: 120px;
+}
+header .header-title {
+  display: flex;
+  justify-content: space-between;
+}
+header .text h1 a {
+  color: #111111;
+  font-size: 30px;
+}
+header .text h1 {
+  margin: 0;
+}
+header .text p {
+  margin: 0;
+}
+header .fa-bars {
+  font-size: 24px;
+  color: #212121;
+  position: fixed;
+  right: 20px;
+  z-index: 10;
+}
+header .menu {
+  display: none;
+}
+main .intro .pic {
+  width: 100%;
+  max-width: 740px;
+}
+main {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 60px;
+}
+main .intro p {
+  font-size: 23px;
+  padding: 45px 0 60px 0;
+}
+main .blog .date {
+  font-size: 14px;
+  display: block;
+  color: #777777;
+  opacity: 0.5;
+}
+main .blog .date:hover {
+  opacity: 1.0;
+  transition: 0.3s all;
+}
+main .blog .title {
+  font-size: 19px;
+  display: block;
+  color: #111111;
+  font-weight: bold;
+}
+main .blog .title:hover {
+  color: #c49029;
+  transition: 0.3s all;
+}
+main .blog p {
+  font-size: 14px;
+  padding-bottom: 45px;
+  line-height: 26px;
+}
+main .btn .next {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #777777;
+  opacity: 0.7;
+  border: 1px solid #dddddd;
+}
+main .btn .next:hover {
+  opacity: 1;
+}
+main .btn .first,
+main .btn .number {
+  display: none;
+  padding: 15px 20px;
+  margin-right: 12px;
+  font-size: 14px;
+  color: #777777;
+  border: 1px solid #dddddd;
+}
+main .btn .first {
+  background-color: #EEEEEE;
+  font-weight: bold;
+}
+main .btn .number {
+  opacity: 0.7;
+}
+.member {
+  padding: 60px 0 64px;
+  border-bottom: 1px solid #dddddd;
+}
+.member .prof {
+  display: flex;
+}
+.member .prof .data {
+  margin-left: 20px;
+}
+.member .prof .image img {
+  width: 100px;
+  border-radius: 50%;
+}
+.member .prof .data h1 {
+  color: #111111;
+  display: block;
+  font-size: 16px;
+}
+.member .prof .data .fab {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+.member .about .text p {
+  font-size: 14px;
+  margin: 0;
+}
+.member .about {
+  padding-bottom: 60px;
+}
+.member .info h2 {
+  font-size: 12px;
+  color: #111111;
+  margin: 0 0 36px;
+}
+.member .info > p {
+  font-size: 13px;
+  margin: 0;
+  display: block;
+  padding-bottom: 144px;
+}
+.member .info ol {
+  list-style: none;
+  margin: 0 0 60px;
+  padding: 0;
+}
+.member .info li a {
+  color: #666666;
+  font-size: 14px;
+  display: inline-block;
+  border-bottom: 1px solid #dddddd;
+}
+.member .info li a:hover {
+  color: #c49029;
+  transition: 0.3s all;
+}
+.member .info li p {
+  font-size: 12px;
+  margin: 0;
+}
+.member .info li {
+  margin-bottom: 20px;
+}
+.member .info ul {
+  margin: 0 0 60px;
+  padding: 0;
+  list-style: none;
+}
+.member .search {
+  width: 320px;
+  font-size: 14px;
+  height: 32px;
+  border: 1px solid #dddddd
+}
+footer {
+  padding: 45px 0;
+}
+footer .fab {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+footer .footer-link p {
+  font-size: 13px;
+}
+footer .footer-link a {
+  font-size: 13px;
+  color: #111111;
+  opacity: 0.7;
+}
+footer .footer-link a:hover {
+  opacity: 1;
+}
+@media (min-width: 640px) {
+  main .btn {
+    display: flex;
+  }
+  main .btn .first,
+  main .btn .number {
+    display: inline-block;
+  }
+  main .btn .number:hover {
+    opacity: 1;
+  }
+}
+@media (min-width: 783px) {
+  body {
+    margin: 0;
+    padding-top: 60px;
+  }
+  body .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  header {
+    height: 204px;
+  }
+  header .text h1 a {
+    font-size: 36px;
+  }
+  header .text p {
+    font-size: 18px;
+  }
+  header .fa-bars {
+    display: none;
+  }
+  header > ul {
+    display: flex;
+  }
+  header .fa-search {
+    display: block;
+    font-size: 24px;
+    color: #212121;
+  }
+  header .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+  header .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  header .menu ul  li  a {
+    font-size: 17px;
+    display: inline-block;
+    color: #444444;
+  }
+  header .menu ul  li {
+    margin-right: 34px;
+  }
+  header .menu ul  li  a:hover {
+    color: #c49029;
+    transition: 0.3s all;
+  }
+  header .menu ul li .mark::after {
+    content:' ▽';
+  }
+  main .intro p {
+    font-size: 27px;
+  }
+  main .blog .date {
+    font-size: 17px;
+  }
+  main .blog .title {
+    font-size: 22px;
+  }
+  main .blog p {
+    font-size: 17px;
+  }
+  .member .prof .data h1 {
+    font-size: 19px;
+  }
+  .member .about .text p {
+    font-size: 17px;
+  }
+  .member .info h2 {
+    font-size: 14px;
+  }
+  .member .info > p {
+    font-size: 16px;
+  }
+  .member .info li a {
+    font-size: 17px;
+  }
+  .member .info li p {
+    font-size: 15px;
+  }
+  footer .footer-link {
+    font-size: 16px;
+  }
+  .member .search {
+    font-size: 17px;
+  }
+}
+@media (min-width: 980px) {
+  body {
+    margin: 0 40px;
+  }
+  body .container,
+  main .intro .pic {
+    width: 100%;
+    max-width: 1036px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .blog {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .blog .text {
+    width: 700px;
+  }
+  main .btn{
+    margin-left: 333px;
+  }
+  .member {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .member .about {
+    width: 248px;
+    padding-right: 85px;
+  }
+  .member .first {
+    width: 212px;
+    padding-right: 40px;
+  }
+  .member .second {
+    width: 137px;
+    padding-right: 100px;
+  }
+  .member .third {
+    width:138px;
+  }
+  .member .search {
+    width: 217px;
+    position: absolute;
+    right: 0;
+    top: 320px;
+  }
+  footer {
+    display: flex;
+  }
+  footer .footer-link p {
+    margin: 0;
+    font-size: 16px;
+  }
+  footer .footer-link a {
+    font-size: 16px;
+  }
+  footer .fab {
+    font-size: 24px;
+  }
+  footer .icons {
+    margin-right: 215px;
+  }
+  footer {
+    padding: 65px;
+  }
+}
